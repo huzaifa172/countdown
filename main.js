@@ -1,9 +1,23 @@
-let endDate = "21 augast 2023 12:00 AM";
 
-let till = document.getElementById("myElement").innerText = endDate;
-const inputs = document.querySelectorAll("input");
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// counter user get element by clicking on enter 
+
+function alclock(){
+let endDate = document.getElementById("input_first")
+
+let endDate_value = endDate.value
+
+let till = document.getElementById("myElement").innerText = endDate_value;
+
+
+// console.log(till)
+
+
+const inputs = document.querySelectorAll(".inp");
 function clock(){
-    const end = new Date(endDate)
+    const end = new Date(endDate_value)
     const now = new Date()
     const diff = (end - now) / 1000 
     console.log(diff)
@@ -15,11 +29,57 @@ function clock(){
 
 
 }
-
 clock()
 
 setInterval(
     ()=>{
-        clock()
-    }, 1000 
+        alclock()
+    }, 1000
 )
+}
+
+
+
+
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    // mean goal heading inputs and changes 
+let goal = document.getElementById("goal_id");
+goal.addEventListener(
+    "keyup",
+    function(event){
+        if(event.key == "Enter"){
+            // console.log(this.value)
+            addheading(this.value)
+            this.value = ""
+        }
+        
+    }
+    )
+    
+function addheading(heading){
+        
+        let goalheading = document.getElementById("mainHea")
+
+        goalheading.innerHTML = heading; 
+}
+
+
+
+
+// function vision(){
+//  let visionGet = document.querySelector("fisrst_btn")
+//  let VgetValue = visionGet.value
+
+//  document.getElementById("mainHea").innerText = VgetValue;
+// }
+// vision()
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
