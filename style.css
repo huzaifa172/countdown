@@ -6,6 +6,7 @@
 }
 body{
     background-image: url(images/watch\ 2.jpg);
+    /* background-color: azure; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +25,7 @@ body{
     flex-direction: column;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, .7);
+    /* background-color: rgba(0, 0, 0, .7); */
 }
 .title{
     text-align: center;
@@ -146,4 +147,229 @@ body{
     text-decoration: none;
     background-color: white;
     padding: 7px 15px;
+}
+
+
+
+
+
+
+
+/* responsive media query width 360px  */
+@media screen and (max-width: 360px){
+    
+    .input_container_first{
+        /* background-color: aqua; */
+        /* display: inline; */
+        height: 50px;
+        width: 610px;
+     }
+    
+    .main_container{
+        /* background-color: aquamarine; */
+        width: 350px;
+        height: 610px;
+
+        
+    }
+        
+     .enter_text{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .inputs_get{
+        border-radius: 0.3rem;
+        width: 60%;
+    }
+                                                                            
+    body{
+        background-image: url(images/Clock-Wallpapers-Free-by-ZEDGE_tm_.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .colum_counter{
+        width: 610px;
+        height: 120px;
+    }
+    .inp{
+        width: 100px;
+        font-size: 20px;
+        height: 50px;
+        
+    }
+       
+    
+}
+
+
+
+
+
+
+/* responsive media query width 414px  */
+@media screen and (max-width: 414px){
+    
+    .input_container_first{
+        height: 100px ;
+        width: 610px;
+     }
+    
+    .main_container{
+        width: 610px;
+        height: 600px;
+
+        
+    }
+        
+     .enter_text{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .inputs_get{
+        border-radius: 0.3rem;
+        width: 60%;
+    }
+                                                                            
+    body{
+        background-image: url(images/Clock-Wallpapers-Free-by-ZEDGE_tm_.jpg);
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .colum_counter{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        width: 610px;
+        height: 120px;
+    }
+    .inp{
+        width: 100px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 0.5rem ;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        height: 50px;
+        
+    }
+       
+    
+}
+
+/* responsive media query width 601px  */
+@media screen and (max-width: 601px){
+    
+    .input_container_first{
+        height: 100px ;
+        width: 610px;
+     }
+    
+    .main_container{
+        width: 610px;
+        height: 600px;
+
+        
+    }
+        
+     .enter_text{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .inputs_get{
+        border-radius: 0.3rem;
+        width: 60%;
+    }
+                                                                            
+    body{
+        background-image: url(images/Clock-Wallpapers-Free-by-ZEDGE_tm_.jpg);
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .colum_counter{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        width: 610px;
+        height: 120px;
+    }
+    .inp{
+        width: 100px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 0.5rem ;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        height: 50px;
+        
+    }
+       
+    
+}
+
+/* responsive media query width 360px  */
+@media screen and (max-width: 768px){ 
+     
+    .input_container_first{
+        height: 100px ;
+        width: 750px;
+     }
+    
+    .main_container{
+        width: 750px;
+        height: 600px;
+
+        
+    }
+        
+     .enter_text{
+        margin: 0px;
+        font-size: 12px;
+    }
+    .inputs_get{
+        border-radius: 0.3rem;
+        width: 60%;
+    }
+                                                                            
+    body{
+        background-image: url(images/Clock-Wallpapers-Free-by-ZEDGE_tm_.jpg);
+        padding: 0;
+        margin: 0;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .colum_counter{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        width: 610px;
+        height: 120px;
+    }
+    .inp{
+        width: 100px;
+        margin-bottom: 10px;
+        border: 1px solid white;
+        border-radius: 0.5rem ;
+        font-weight: bolder;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        height: 50px;
+        
+    }
+       
+    
 }
