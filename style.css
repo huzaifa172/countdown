@@ -214,11 +214,11 @@ body{
     
     .input_container_first{
         height: 100px ;
-        width: 610px;
+        width: 410px;
      }
     
     .main_container{
-        width: 610px;
+        width: 410px;
         height: 600px;
 
         
@@ -245,7 +245,7 @@ body{
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        width: 610px;
+        width: 410px;
         height: 120px;
     }
     .inp{
