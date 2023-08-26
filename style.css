@@ -150,7 +150,11 @@ body{
 }
 
 
-
+.input_container_child input{
+    color: black;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
 
 
 
