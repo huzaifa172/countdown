@@ -150,7 +150,8 @@ body{
 }
 
 
-.input_container_child input{
+.input_container_child input::placeholder{
+    font-size: 10px;
     color: black;
     font-family: sans-serif;
     font-weight: lighter;
